@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+body {
+	background-color: #990000;
+	background-image: url(5.jpg);
+}
+.style3 {color: #0033CC}
+.style4 {color: #33FF66}
+-->
+</style>
+</head>
+
+<body>
+<div id="Layer2" style="position:absolute; left:4px; top:33px; width:257px; height:357px; z-index:2">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="100%"><form name="ddmessage">
+          <table width="164%" height="355" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="100%"><select name="selectbox" size="1" onChange="changecontent(this)">
+                  <option selected value="¿Que son los sonideros?">"¿Que son los sonideros?"</option>
+                  <option value="Origenes">Origenes</option>
+                  <option value="Primeros sonideros">Primeros sonideros</option>
+                  <option value="Desarrollo de los sonideros">Desarrollo de los sonideros</option>
+                </select>
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td width="100%"><textarea rows="8" name="contentbox" cols="35" wrap="virtual"></textarea>
+                  <br>                  </td>
+            </tr>
+          </table>
+      </form></td>
+    </tr>
+  </table>
+  <p>
+    <script language="JavaScript">
+
+/*
+Drop down messages script
+By JavaScript Kit (http://javascriptkit.com)
+Over 400+ free scripts here!
+*/
+
+//change contents of message box, where the first one corresponds with the first drop down box, second with second box etc
+var thecontents=new Array()
+
+thecontents[0]='El Sonidero es un fenómeno social popular originario de la Ciudad de México. Este término aborda los distintos elementos de un sonidero como: disc jockey y animador, propietario o no de equipos de audio, luces y video —el sonido— usado para organizar o participar en bailes públicos callejeros —bailes o también llamados eventos sonideros en donde concurre la comunidad cultural aficionada a este fenómeno llamada movimiento sonidero'
+
+thecontents[1]='Aunque el término sonidero es un término genérico, no existe como tal un autoría de quien definió el término que se considera de dominio popular para definir a esta persona, el término fue adoptado masivamente alrededor de los años 1970, originalmente se les llamaba tocadiscos.'
+thecontents[2]='Observando esto, es como se comienza poco a poco a gestar la idea de amenizar bailes, fiestas y eventos con aparatos amplificadores y música grabada, por diversas personas en la época, por lo cual no hay dato de quien lo inicia, pero un par de barrios de la Ciudad de México se distinguirían con esta característica como precursores de este fenómeno, Tepito, San Juan de Aragón y el Peñón de los baños durante los años 60'
+thecontents[3]='Con el tiempo se fueron ampliando las posibilidades y con la venta masiva en locales de electrónica del centro de la capital mexicana de equipo de audio y sonido más moderno, se pudo implementar iluminación robótica y amplificadores con "cerebros" y actualmente cajas de ritmos y memorias portables, grabaciones ópticas, bafles de mayor capacidad, pantallas, "rebotes" etc, son la tecnología que poseen los más renombrados sonideros, también dentro del movimiento, existen algunos sonidos más pequeños con equipo mucho menos sofisticado.'
+
+
+
+//don't edit pass this line
+
+function changecontent(which){
+document.ddmessage.contentbox.value=thecontents[which.selectedIndex]
+}
+
+document.ddmessage.contentbox.value=thecontents[document.ddmessage.selectbox.selectedIndex]
+</script>
+</div>
+<div id="Layer2" style="position:absolute; left:696px; top:29px; width:157px; height:52px; z-index:2">
+  <div align="center" class="style1"><img src="2.gif" width="327" height="251"></div>
+</div>
+<div id="Layer2" style="position:absolute; left:307px; top:21px; width:324px; height:178px; z-index:2">
+  <div align="center" class="style1"><img src="monja.gif" width="318" height="174"></div>
+</div>
+<div id="Layer2" style="position:absolute; left:463px; top:258px; width:157px; height:52px; z-index:2">
+  <div align="center" class="style1"><img src="1.gif" width="305" height="195"></div>
+</div>
+<div id="Layer2" style="position:absolute; left:208px; top:459px; width:157px; height:52px; z-index:2">
+  <div align="center" class="style3">
+    <embed src="Toquenme%20la%20Cumbia_%20%20%20Sonido%20C&#243;ndor.mp3" width="236" height="88"></embed>
+  </div>
+</div>
+</body>
+</html>
